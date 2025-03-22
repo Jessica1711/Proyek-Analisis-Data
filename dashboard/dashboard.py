@@ -6,7 +6,7 @@ import streamlit as st
 from babel.numbers import format_currency
 sns.set(style='dark')
 
-day_df = pd.read_csv('/content/drive/MyDrive/Proyek Analisis Data/day.csv')
+day_df = pd.read_csv('https://raw.githubusercontent.com/Jessica1711/Proyek-Analisis-Data/refs/heads/main/data/day.csv')
 hour_df = pd.read_csv('/content/drive/MyDrive/Proyek Analisis Data/hour.csv')
 
 # Helper function yang dibutuhkan untuk menyiapkan berbagai dataframe
