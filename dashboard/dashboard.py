@@ -6,7 +6,6 @@ import streamlit as st
 from babel.numbers import format_currency
 sns.set(style='dark')
 
-from google.colab import drive
 day_df = pd.read_csv('/content/drive/MyDrive/Proyek Analisis Data/day.csv')
 hour_df = pd.read_csv('/content/drive/MyDrive/Proyek Analisis Data/hour.csv')
 
